@@ -1,0 +1,171 @@
+/* header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.logo-text {
+    color: #e97aeb;
+    font-family: serif;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+
+}
+
+.goal-link {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f2f1f1;
+    padding: 5px 7px;
+    font-size: 14px;
+
+}
+
+
+
+.logout-link {
+    border: none;
+    border-radius: 4px;
+    background-color: #ddd;
+    padding: 5px 8px;
+    font-size: 14px;
+
+}
+
+.nav-link .material-icons {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/*ここから別*/
+body {
+    width: 100%;
+    height: 700px;
+    background: #f3f3f3;
+
+}
+
+
+/* 画面全体を使って中央に配置する */
+.setting-form {
+    max-width: 500px;
+    background-color: #fff;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 200px auto;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(74, 70, 70);
+}
+
+
+
+.setting-form__group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+
+}
+
+.setting-form__inner {
+    width: 400px;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+
+.input-container input {
+    width: 370px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ccc;
+}
+
+.kg-label {
+    margin-left: 5px;
+
+}
+
+.setting-form__buttons {
+    display: flex;
+    justify-content: space-between;
+    /* 左右に配置 */
+    width: 100%;
+    /* ボタンを横幅いっぱいに広げる */
+    margin-top: 20px;
+}
+
+.setting-form__button {
+    width: 45%;
+    /* ボタンの幅を調整 */
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #a434ff5e, #eb48a554);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.setting-form__button--back {
+    background: #ccc;
+    box-shadow: 2px 2px 3px 1px  #ededed;
+    color: #333;
+}
+
+.setting-form__button--update {
+    background: linear-gradient(90deg, #a434ff5e, #eb48a554);
+
+}
+
+
+
+
+.setting-form__error-message {
+    font-size: 14px;
+    color: red;
+    height: 10px;
+}

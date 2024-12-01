@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(90deg, #ff9d345e, #ec94f654);
+
+}
+
+
+/* 画面全体を使って中央に配置する */
+.login-form {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 150px auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(243, 147, 235);
+    font-size: 55px;
+    font-weight: lighter;
+    margin-top: 0px;
+    font-family: serif;
+    height: 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: serif;
+    font-weight: lighter;
+    color: rgb(74, 70, 70);
+}
+
+p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 13px;
+    color: rgb(74, 70, 70);
+}
+
+.login-form__group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.login-form__inner {
+    width: 400px;
+}
+
+.login-form__input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ccc;
+
+}
+
+.login-form__button {
+    width: 40%;
+    text-align: center;
+    padding: 8px;
+    background: linear-gradient(90deg, #a434ff5e, #eb48a554);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form__buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.login-form__login-link {
+    text-align: center;
+}
+
+.login-form__button--link {
+    color: #79d5ee;
+    text-decoration: none;
+    margin-top: 5px;
+    font-family: serif;
+}
+
+.login-form__error-message {
+    font-size: 14px;
+    color: red;
+}

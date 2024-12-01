@@ -1,0 +1,113 @@
+body {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(90deg, #ff9d345e, #ec94f654);
+
+}
+
+
+/* 画面全体を使って中央に配置する */
+.register-form {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 150px auto;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(243, 147, 235);
+    font-size: 55px;
+    font-weight: lighter;
+    margin-top: 0px;
+    font-family: serif;
+    height: 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: serif;
+    font-weight: lighter;
+    color: rgb(74, 70, 70);
+}
+
+p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 13px;
+    color: rgb(74, 70, 70);
+}
+
+.register-form__group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+
+}
+
+.register-form__inner {
+    width: 400px;
+}
+
+
+.input-container {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.input-container label {
+    padding-bottom: 10px;
+}
+
+
+.input-container input {
+    width: 370px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #ccc;
+}
+
+.kg-label {
+    margin-left: 5px;
+
+}
+
+
+.register-form__button {
+    width: 40%;
+    text-align: center;
+    padding: 8px;
+    background: linear-gradient(90deg, #a434ff5e, #eb48a554);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.register-form__buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+
+.register-form__error-message {
+    font-size: 14px;
+    color: red;
+}
